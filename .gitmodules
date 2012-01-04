@@ -1,0 +1,3 @@
+[submodule "diem"]
+	path = diem
+	url = git://github.com/diem-project/diem.git
