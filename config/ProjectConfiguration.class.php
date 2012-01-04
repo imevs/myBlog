@@ -1,6 +1,7 @@
 <?php
 
-require_once 'C:/WebServers/home/localhost/myBlog/diem/dmCorePlugin/lib/core/dm.php';
+require_once dirname(__FILE__) . '/../diem/dmCorePlugin/lib/core/dm.php';
+
 dm::start();
 
 class ProjectConfiguration extends dmProjectConfiguration
